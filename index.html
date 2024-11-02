@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giatronik - Venta de Repuestos para PC</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <div class="hero">
+        <!-- Navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Giatronik</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#quienes-somos">Quienes Somos</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://wa.me/927415015" target="_blank">WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Título y botones de subtítulos -->
+        <header class="inicio d-flex flex-column align-items-center justify-content-center">
+            <h1 class="titulo-inicio">Bienvenidos a Giatronik</h1>
+            <p id="subtitulo-inicio" class="subtitulo-inicio"></p>
+            <div class="ventanas-subtitulo">
+                <button class="ventana" data-subtitulo="En Giatronik vendemos los mejores repuestos para laptops, productos de alta calidad...">
+                    Venta de repuestos para laptops
+                </button>
+                <button class="ventana" data-subtitulo="En Giatronik encontrarás repuestos para PCs de alta calidad y durabilidad...">
+                    Repuestos para PCs
+                </button>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- Servicios Section -->
+<section id="services" class="services-section py-5">
+    <div class="container">
+        <h2 class="services-title text-center mb-3">Nuestros Servicios</h2>
+        <p class="services-subtitle text-center mb-5">Descubre nuestra amplia gama de servicios para el mantenimiento, reparación y mejora de tus equipos tecnológicos.</p>
+        <div class="row">
+            <!-- Service Card 1 -->
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="service-card">
+                    <img src="img/mantenimiento.jpeg" alt="Mantenimiento de PC" class="img-fluid">
+                    <div class="service-card-content">
+                        <h5>Mantenimiento de PC</h5>
+                    </div>
+                    <div class="service-description">
+                        <p>Servicio completo para mantener tu PC en óptimas condiciones.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Card 2 -->
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="service-card">
+                    <img src="img/mantenimiento_correctivo.jpeg" alt="Mantenimiento Correctivo" class="img-fluid">
+                    <div class="service-card-content">
+                        <h5>Mantenimiento Correctivo</h5>
+                    </div>
+                    <div class="service-description">
+                        <p>Reparación y solución de problemas para equipos de computo.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Card 3 -->
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="service-card">
+                    <img src="img/mantenimiento_preventivo.jpeg" alt="Mantenimiento Preventivo" class="img-fluid">
+                    <div class="service-card-content">
+                        <h5>Mantenimiento Preventivo</h5>
+                    </div>
+                    <div class="service-description">
+                        <p>Prevención de fallos para extender la vida útil de tu equipo.</p>
+                    </div>
+                </div>
+            </div>
+                <!-- Service Card 4 -->
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="service-card">
+                        <img src="img/programas.jpg" alt="Venta de Repuestos para Laptops" class="img-fluid">
+                        <div class="service-card-content">
+                            <h5>Venta de Repuestos para Laptops</h5>
+                        </div>
+                        <div class="service-description">
+                            <p>Encuentra repuestos originales para tu laptop.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Card 5 -->
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="service-card">
+                        <img src="img/repuestos.jpg" alt="Repuestos para PC" class="img-fluid">
+                        <div class="service-card-content">
+                            <h5>Repuestos para PC</h5>
+                        </div>
+                        <div class="service-description">
+                            <p>Componentes de alta calidad para tu computadora.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Card 6 -->
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="service-card">
+                        <img src="img/formateo.jpg" alt="Formateo de Windows" class="img-fluid">
+                        <div class="service-card-content">
+                            <h5>Formateo de Windows</h5>
+                        </div>
+                        <div class="service-description">
+                            <p>Reinstalación de sistema operativo para un rendimiento óptimo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Sección de Productos -->
+<section id="productos" class="productos-section">
+    <div class="productos-section">
+        <h2 class="productos-titulo">Nuestros Productos</h2>
+        <p class="productos-descripcion">
+            Explora nuestra gama de productos de alta calidad, desde baterías hasta teclados, diseñados para satisfacer tus necesidades tecnológicas.
+        </p>
+    
+
+    <!-- Productos Section (Carrusel) -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/baterias.png" class="d-block w-100 carousel-image" alt="Baterías">
+                <div class="carousel-caption fade-content">
+                    <h5>Baterías de Alta Duración</h5>
+                    <p>Ideales para mantener tus dispositivos activos durante largas jornadas.</p>
+                    <button class="btn btn-primary">Ver Más</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/cargadores.png" class="d-block w-100 carousel-image" alt="Cargadores">
+                <div class="carousel-caption fade-content">
+                    <h5>Cargadores Rápidos</h5>
+                    <p>Optimiza el tiempo de carga de tus dispositivos con nuestra gama de cargadores.</p>
+                    <button class="btn btn-primary">Ver Más</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/teclados.png" class="d-block w-100 carousel-image" alt="Teclados">
+                <div class="carousel-caption fade-content">
+                    <h5>Teclados Ergonómicos</h5>
+                    <p>Diseñados para brindarte la máxima comodidad y rendimiento.</p>
+                    <button class="btn btn-primary">Ver Más</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</section>
+
+
+
+<!-- Quienes Somos Section Start -->
+<section id="quienes-somos" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">¿Quiénes Somos?</h2>
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <div class="about-image">
+                    <img src="img/historia.jpeg" alt="Historia de la Empresa" class="img-fluid animate-image">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-content">
+                    <h3 class="animate-title">Nuestra Historia</h3>
+                    <p>Giatronik se fundó en 2020 con el objetivo de brindar las mejores piezas de computadoras y servicios de mantenimiento. Desde entonces, hemos crecido y evolucionado para satisfacer las necesidades de nuestros clientes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-md-2">
+                <div class="about-image">
+                    <img src="img/vision.jpg" alt="Nuestra Visión" class="img-fluid animate-image">
+                </div>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="about-content">
+                    <h3 class="animate-title">Nuestra Misión</h3>
+                    <p>Proporcionar productos de calidad y un servicio excepcional, garantizando la satisfacción de nuestros clientes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <div class="about-image">
+                    <img src="img/mision.jpg" alt="Nuestra Misión" class="img-fluid animate-image">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-content">
+                    <h3 class="animate-title">Nuestra Visión</h3>
+                    <p>Ser líderes en la venta de repuestos de computadoras, reconocidos por nuestra calidad y compromiso con el cliente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Quienes Somos Section End -->
+
+
+<!-- footer section start -->
+<section id="footer" class="footer-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center text-md-start">
+                <a href="index.html"><img src="img/logo.jpg" alt="Giatronik Logo" class="img-fluid logo-footer mb-3"></a>
+                <div class="footer-about">
+                    <p>Giatronik, su fuente confiable para piezas de computadoras y servicios de mantenimiento.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h2 class="h5 text-light">Enlaces Útiles</h2>
+                <div class="use-links">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Inicio</a></li>
+                        <li><a href="#services"><i class="fa-solid fa-angles-right"></i> Servicios</a></li>
+                        <li><a href="#productos"><i class="fa-solid fa-angles-right"></i> Productos</a></li>
+                        <li><a href="#quienes-somos"><i class="fa-solid fa-angles-right"></i> Quienes somos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h2 class="h5 text-light">Síguenos</h2>
+                <div class="social-icons">
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-lg"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg"></i> Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 text-center text-md-start">
+                <h2 class="h5 text-light">Dirección</h2>
+                <div class="address-links">
+                    <ul class="list-unstyled">
+                        <li class="address1">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Calle+Principal,+Ciudad,+Estado,+12345" target="_blank" class="text-light text-decoration-none">
+                                Calle Principal, Ciudad, Estado, 12345
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/927415015" class="text-light text-decoration-none">
+                                <i class="fa-solid fa-phone"></i> +51 927 415 015
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://mail.google.com/" class="text-light text-decoration-none">
+                                <i class="fa-solid fa-envelope"></i> contacto@giatronik.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- footer section end -->
+
+
+
+<!-- footer copy right section start -->
+<section id="copy-right" class="bg-dark text-white py-3">
+    <div class="text-center">
+        <i class="fa-solid fa-copyright"></i> Giatronik 2024. Todos los derechos reservados.
+    </div>
+</section>
+<!-- footer copy right section end -->
+
+<!-- Contenedor del botón de WhatsApp -->
+<div id="whatsapp-container" class="whatsapp-container">
+    <span class="close-btn" onclick="removeWhatsApp()">×</span>
+    <a href="https://wa.me/927415015" target="_blank" class="whatsapp-button">
+        <img src="img/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+    <p class="whatsapp-text">Comunícate con nosotros</p>
+</div>
+
+
+
+    
+    
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
